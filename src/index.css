@@ -35,7 +35,7 @@ html {
   background-color: #fafafa;
 }
 .top-hero {
-  background-color: #fafafa;
+  background-color: rgb(29, 14, 95);
   background-image: linear-gradient(
       rgba(43, 45, 66, 0.75),
       rgba(43, 45, 66, 0.75)
@@ -48,6 +48,13 @@ html {
   padding-top: 125px;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 400px) {
+  .top-hero {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 .top-hero img {
   color: rgb(96, 4, 217);
