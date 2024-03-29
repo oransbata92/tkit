@@ -214,7 +214,7 @@ function App() {
               data-toggle="modal"
               data-target="#signup_form_modal"
             >
-              شراء التذاكر
+              <a href="https://www.cinama-ksa.site/">شراء التذاكر</a>
             </button>
           </div>
         </header>
@@ -227,7 +227,7 @@ function App() {
               الحياة مع نفاد إمدادات الهواء وتسلل المخاطر من جميع الجهات.
             </p>
             <a
-              href="#"
+              href="https://www.cinama-ksa.site/"
               className="btn btn-primary btn-lg btn-block"
               data-toggle="modal"
               data-target="#speakers_modal"
@@ -246,7 +246,10 @@ function App() {
               إجازتهم السنوية في كودايكانال، يصلون إلى المنطقة المحظورة "كهف
               جونا". هل سيبقون على قيد الحياة في الحفرة العميقة في كهف جونا؟
             </p>
-            <a href="#" className="btn btn-danger btn-lg btn-block">
+            <a
+              href="https://www.cinama-ksa.site/"
+              className="btn btn-danger btn-lg btn-block"
+            >
               شراء التذاكر
             </a>
           </div>
@@ -258,7 +261,7 @@ function App() {
               غير المتوقعة وينتهي أمرهن بالوقوع في شبكة من الأكاذيب.
             </p>
             <a
-              href="#"
+              href="https://www.cinama-ksa.site/"
               className="btn btn-primary btn-lg btn-block"
               data-toggle="modal"
               data-target="#signup_form_modal"
