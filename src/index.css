@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+html {
+  font-size: 14px;
+  font-family: "Almarai", sans-serif;
+}
+.animated {
+  animation-duration: 500ms;
+}
+.btn {
+  border-radius: 2px;
+  font-family: "Almarai", sans-serif;
+}
+.btn.btn-danger {
+  border-color: rgb(96, 4, 217);
+  background-color: #6004d9;
+  border-radius: 5px;
+  transition: all 0.7s ease;
+}
+.btn.btn-danger:hover {
+  border-color: hsl(266, 82%, 51%);
+  background-color: hsl(264, 12%, 92%);
+  color: black;
+}
+.btn.btn-primary {
+  border-color: #2b2d42;
+  background-color: #2b2d42;
+  border-radius: 5px;
+  transition: all 0.7s ease;
+}
+.btn.btn-primary:hover {
+  border-color: hwb(240 99% 0%);
+  background-color: hsl(235, 64%, 37%);
+}
+.btn.btn-default:hover {
+  background-color: #fafafa;
+}
+.top-hero {
+  background-color: #fafafa;
+  background-image: linear-gradient(
+      rgba(43, 45, 66, 0.75),
+      rgba(43, 45, 66, 0.75)
+    ),
+    url("https://assets.voxcinemas.com/content/Vox-Ramadan-Merged-Offer-880x440_1711102934.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 100vh;
+  padding-top: 125px;
+  display: flex;
+  align-items: center;
+}
+.top-hero img {
+  color: rgb(96, 4, 217);
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 20%;
+  letter-spacing: -1px;
+  line-height: 0.9;
+}
+.top-hero p {
+  color: #edf2f4;
+  font-family: "Almarai", sans-serif;
+}
+p {
+  font-family: "Almarai", sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .top-hero {
+    min-height: 400px;
+    padding-top: 50px;
+  }
+  .top-hero h1 {
+    font-size: 36px;
+    margin-top: 50px;
+  }
+}
+.top-nav {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.top-nav.sticky {
+  position: fixed;
+}
+.top-nav ul {
+  float: right;
+  font-family: "Almarai", sans-serif;
+}
+.top-nav ul .signup-btn {
+  padding: 0.25em 0.5em;
+}
+.top-nav ul .signup-btn,
+.top-nav ul .signup-btn:hover {
+  color: #edf2f4 !important;
+  border-bottom: 1px solid rgb(96, 4, 217) !important;
+  border-color: rgb(96, 4, 217) !important;
+}
+.top-nav a {
+  font-size: 1.1rem;
+  color: #edf2f4;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  padding: 0 0 5px;
+  transition: 0.25s;
+}
+.top-nav a:hover {
+  color: rgb(96, 4, 217);
+  border-color: rgb(96, 4, 217) 417;
+}
+.banner {
+  color: #edf2f4;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.banner .wrapper {
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .banner {
+    min-height: 400px;
+  }
+  .banner h1,
+  .banner h2 {
+    font-size: 20px;
+  }
+}
+.banner.speakers,
+.banner.signup {
+  background-color: rgb(96, 4, 217);
+}
+.banner.speakers {
+  background-image: linear-gradient(
+      rgba(96, 4, 217, 0.45),
+      rgba(96, 4, 219, 0.45)
+    ),
+    url("https://assets.voxcinemas.com/content/The-Beekeeper-AR_1709735595.jpg");
+}
+.banner.learn {
+  background-color: #2b2d42;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://assets.voxcinemas.com/content/Manjummel-Boys-AR_1709132581.jpg");
+}
+.banner.signup {
+  background-image: linear-gradient(
+      rgba(96, 4, 217, 0.45),
+      rgba(96, 4, 219, 0.45)
+    ),
+    url("https://assets.voxcinemas.com/content/Crew-AR_1711617676.jpg ");
+}
+footer {
+  text-align: center;
+  background-color: #2b2d42;
+  color: #edf2f4;
+}
+footer .copyright {
+  padding: 0;
+  margin-top: 7px;
+  font-size: 0.9rem;
+}
+#speakers_modal .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brd {
+  background: url(https://i.ibb.co/bgqM8Wv/removebg-preview.png) 0 0 no-repeat;
+  background-size: 68px 30px;
+  height: 30px;
+  width: 68px;
+}
+footer {
+  background-color: #ececec;
+  background-color: var(--color-footer-background);
+  font-size: 16px;
+  padding: 30px 0;
+  color: #2b2d42;
+}
