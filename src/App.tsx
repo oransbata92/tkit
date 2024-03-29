@@ -179,11 +179,14 @@ function App() {
               <li className="list-inline-item m-r-0">
                 <a
                   href="#"
-                  className="btn signup-btn btn-danger btn-sm"
+                  className="btn signup-btn btn- btn-sm"
                   data-toggle="modal"
                   data-target="#signup_form_modal"
                 >
-                  شراء التذاكر
+                  <img
+                    src="https://i.ibb.co/bgqM8Wv/removebg-preview.png"
+                    width={30}
+                  />
                 </a>
               </li>
             </ul>
