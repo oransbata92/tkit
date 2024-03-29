@@ -40,22 +40,18 @@ html {
       rgba(43, 45, 66, 0.75),
       rgba(43, 45, 66, 0.75)
     ),
-    url("https://assets.voxcinemas.com/content/Vox-Ramadan-Merged-Offer-880x440_1711102934.jpg");
+    url("https://assets.voxcinemas.com/content/magic_planet_offer_vox_cinemas_ksa_ar_1702904856.png");
   background-size: cover;
-  background-position: bottom;
+  width: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
   height: 100vh;
-  padding-top: 125px;
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 400px) {
-  .top-hero {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
+
 .top-hero img {
   color: rgb(96, 4, 217);
   font-weight: bold;
