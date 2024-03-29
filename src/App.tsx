@@ -199,7 +199,7 @@ function App() {
             <img
               src="https://i.ibb.co/bgqM8Wv/removebg-preview.png"
               className="display-3"
-              width={90}
+              width={140}
             />
             <p className="lead m-t-1">عرض رمضان</p>
             <p className="lead m-t-1 m-b-2">
