@@ -160,25 +160,37 @@ function App() {
           <div className="container">
             <ul className="list-unstyled list-inline">
               <li className="list-inline-item m-r-1">
-                <a href="#" className="js-scroll" data-scroll-to="#home">
+                <a
+                  href="https://hmahmm619.wixsite.com/online-store-1"
+                  className="js-scroll"
+                  data-scroll-to="#home"
+                >
                   افلام
                 </a>
               </li>
 
               <li className="list-inline-item m-r-1">
-                <a href="#" className="js-scroll" data-scroll-to="#speakers">
+                <a
+                  href="https://hmahmm619.wixsite.com/online-store-1"
+                  className="js-scroll"
+                  data-scroll-to="#speakers"
+                >
                   عروض التذاكر
                 </a>
               </li>
               <li className="list-inline-item m-r-1">
-                <a href="#" className="js-scroll" data-scroll-to="#locations">
+                <a
+                  href="https://hmahmm619.wixsite.com/online-store-1"
+                  className="js-scroll"
+                  data-scroll-to="#locations"
+                >
                   يعرض حالياً
                 </a>
               </li>
 
               <li className="list-inline-item m-r-0">
                 <a
-                  href="#"
+                  href="https://hmahmm619.wixsite.com/online-store-1"
                   className="btn signup-btn btn- btn-sm"
                   data-toggle="modal"
                   data-target="#signup_form_modal"
@@ -214,7 +226,9 @@ function App() {
               data-toggle="modal"
               data-target="#signup_form_modal"
             >
-              <a href="https://www.cinama-ksa.site/">شراء التذاكر</a>
+              <a href="https://hmahmm619.wixsite.com/online-store-1/">
+                شراء التذاكر
+              </a>
             </button>
           </div>
         </header>
@@ -227,7 +241,7 @@ function App() {
               الحياة مع نفاد إمدادات الهواء وتسلل المخاطر من جميع الجهات.
             </p>
             <a
-              href="https://www.cinama-ksa.site/"
+              href="https://hmahmm619.wixsite.com/online-store-1/"
               className="btn btn-primary btn-lg btn-block"
               data-toggle="modal"
               data-target="#speakers_modal"
@@ -247,7 +261,7 @@ function App() {
               جونا". هل سيبقون على قيد الحياة في الحفرة العميقة في كهف جونا؟
             </p>
             <a
-              href="https://www.cinama-ksa.site/"
+              href="https://hmahmm619.wixsite.com/online-store-1/"
               className="btn btn-danger btn-lg btn-block"
             >
               شراء التذاكر
@@ -261,7 +275,7 @@ function App() {
               غير المتوقعة وينتهي أمرهن بالوقوع في شبكة من الأكاذيب.
             </p>
             <a
-              href="https://www.cinama-ksa.site/"
+              href="https://hmahmm619.wixsite.com/online-store-1/"
               className="btn btn-primary btn-lg btn-block"
               data-toggle="modal"
               data-target="#signup_form_modal"
